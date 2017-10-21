@@ -1,10 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Libre+Baskerville:700');
 body {
+  margin: 0px;
+  padding: 0px;
   height: 2500px;
-  background-image: url('../images/figure.jpg');
+  background: url(../images/figure.svg) no-repeat center;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+h1 {
+  margin-top: 180px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+#contact {
+  background-color: Black;
+  height: 300px;
+  width: 100%;
+  position:absolute;
+  top: 2300px;
+}
+
+#arrow {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 47%;
+  top: 80%;
+  background: url(../images/arrow.svg) no-repeat center;
 }
