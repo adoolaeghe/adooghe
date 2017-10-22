@@ -1,12 +1,97 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+     <meta charset='utf-8'>
+    <title>Adooghe</title>
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script type="text/javascript" href="/javascripts/script.js"></script>
   </head>
+
   <body>
-    {{{body}}}
-    <div id='contact'>hello</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>Some text in the modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="container">
+    <div id="title-top">ANTOINE</br>DOOLAEGHE.</div>
+    <p>I'm a </p>
+    <h1 id="more"> MORE. </h1>
+    <div id="contact">
+      <div id="twitter"></div>
+      <div id="medium"></div>
+    </div>
+    <h1 id="projects">
+      I Code
+      <div id="projects-block"></div>
+      <button data-toggle="modal" data-target="#myModal">
+        <div  id="coding-ball">
+	         <div class="button">
+             <a href="#">
+               <i class="fa fa-chevron-down" aria-hidden="true"></i>
+             </a>
+           </div>
+        </div>
+      </button>
+    </h1>
+    <h1 id="writing">
+      <div >I Write<div>
+      <div id="projects-block"></div>
+      <button data-toggle="modal" data-target="#myModal">
+        <div  id="writing-ball">
+           <div class="button">
+             <a href="#">
+               <i class="fa fa-chevron-down" aria-hidden="true"></i>
+             </a>
+           </div>
+        </div>
+      </button>
+    </h1>
+      <h1 id="curating">
+        I Curate
+        <div id="projects-block"></div>
+        <button data-toggle="modal" data-target="#myModal">
+          <div id="curating-ball">
+  	         <div class="button">
+               <a href="#">
+                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
+               </a>
+             </div>
+          </div>
+        </button>
+      </h1>
+    <div class="main slide-right">
+      <marquee behavior="alternate">&#x1F534;      I'm a <b>FULLSTACK DEVELOPPER</b> looking for position in <b>LONDON</b>      &#x1F534;<i class="em-a"></i></marquee>
+    </div>
+
+
+  <!-- Animated Arrow by https://codepen.io/epicbit/pen/MYaxvB -->
+  <div class="arrow animated bounce">
+  </div>
   </body>
+
 </html>
