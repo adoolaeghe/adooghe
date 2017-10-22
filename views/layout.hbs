@@ -1,97 +1,61 @@
-<!DOCTYPE html>
+
 <html>
   <head>
-     <meta charset='utf-8'>
-    <title>Adooghe</title>
-    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    </script>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-    <script type="text/javascript" href="/javascripts/script.js"></script>
+    <script type="text/javascript" src='/javascripts/script.js'></script>
+    <link rel="stylesheet" href="/stylesheets/style.css">
   </head>
-
   <body>
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
-        </div>
-        <div class="modal-body">
-          <p>Some text in the modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
+    <p id='hello'>Hello</p>
+    <div class="js-spiral">
+      <div class="js-section">
+        <div id='warning'> <span>WARNING:</span> Do not proceed if you suffer from vertigo or find experimental interfaces offensive.</div>
+        <div id="name"> Antoine </br> Doolaeghe </div>
+        <div id='white-box' class='contact'></div>
       </div>
-
-    </div>
-  </div>
-
-  <div id="container">
-    <div id="title-top">ANTOINE</br>DOOLAEGHE.</div>
-    <p>I'm a </p>
-    <h1 id="more"> MORE. </h1>
-    <div id="contact">
-      <div id="twitter"></div>
-      <div id="medium"></div>
-    </div>
-    <h1 id="projects">
-      I Code
-      <div id="projects-block"></div>
-      <button data-toggle="modal" data-target="#myModal">
-        <div  id="coding-ball">
-	         <div class="button">
-             <a href="#">
-               <i class="fa fa-chevron-down" aria-hidden="true"></i>
-             </a>
-           </div>
-        </div>
-      </button>
-    </h1>
-    <h1 id="writing">
-      <div >I Write<div>
-      <div id="projects-block"></div>
-      <button data-toggle="modal" data-target="#myModal">
-        <div  id="writing-ball">
-           <div class="button">
-             <a href="#">
-               <i class="fa fa-chevron-down" aria-hidden="true"></i>
-             </a>
-           </div>
-        </div>
-      </button>
-    </h1>
-      <h1 id="curating">
-        I Curate
-        <div id="projects-block"></div>
-        <button data-toggle="modal" data-target="#myModal">
-          <div id="curating-ball">
-  	         <div class="button">
-               <a href="#">
-                 <i class="fa fa-chevron-down" aria-hidden="true"></i>
-               </a>
-             </div>
-          </div>
-        </button>
-      </h1>
-    <div class="main slide-right">
-      <marquee behavior="alternate">&#x1F534;      I'm a <b>FULLSTACK DEVELOPPER</b> looking for position in <b>LONDON</b>      &#x1F534;<i class="em-a"></i></marquee>
+      <div class="js-section">
+        <div id='makersAcademy'>Makers Academy graduate</div>
+        <div id="name"> I Code </div>
+        <div id="text"> After graduating from visual studies, I attended Makers Academy to learn code. You can find all my github project from the github projects. </div>
+        <div id='white-box' class='github'></div>
+      </div>
+      <div class="js-section">
+        <div id='makersAcademy'>Makers Academy Final Project</div>
+        <div id="name"> Love Block </div>
+        <div id='text'> Final project at Makers Academy implementing a marriage contract onto the Blockchain. </div>
+        <a id='white-box' class='github'></a>
+      </div>
+      <div class="js-section">
+        <div id="name"> Echomancy </div>
+        <div id='text'> This is a work in progress React application implementing a progressive format for music publication. </div>
+        <div id='white-box' class='github'></div>
+      </div>
+      <div class="js-section">
+        <div id="name"> I write </div>
+        <div id='text'> I was honored for my dissertation on the movement of post-internet art. </div>
+        <div id='white-box' class='medium'></div>
+      </div>
+      <div class="js-section">
+        <div id="name"> The ideal Press </div>
+        <div id='text'> A small publishing house </div>
+        <div id='white-box' class='ideal-press'></div>
+      </div>
+      <div class="js-section">
+        <div id="name"> The book that you are working on. </div>
+        <div id='text'> A small publishing house </div>
+        <div id='white-box'></div>
+      </div>
+      <div class="js-section">
+        <div id="name"> I curate </div>
+      </div>
+      <div class="js-section">
+        <div id="name"> More </div>
+      </div>
     </div>
 
-
-  <!-- Animated Arrow by https://codepen.io/epicbit/pen/MYaxvB -->
-  <div class="arrow animated bounce">
-  </div>
+      <div class="main slide-right">
+        <marquee behavior="alternate">&#x1F534;      FULLSTACK DEVELOPPER looking for position in LONDON      &#x1F534;<i class="em-a"></i></marquee>
+      </div>
   </body>
-
 </html>
