@@ -45,7 +45,10 @@ span {
 
 .contact {
  background: url(../images/contact.svg) center no-repeat;
- background-size: 50px
+ background-size: 50px;
+ color: white;
+ text-align: center;
+ font-family: 'Fira Sans', sans-serif;
 }
 
 .makers {
@@ -53,7 +56,16 @@ span {
   background-size: 100px;
 }
 
-
+#tweeter {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top:86%;
+  left: 25%;
+  background-color: black;
+  background-image: url('../images/tweeter.png');
+  background-size: contain;
+}
 
 #warning {
   font-family: 'Fira Sans', sans-serif;
@@ -128,10 +140,28 @@ box-shadow: -1px -1px 47px -8px rgba(0,0,0,0.75);
   font-size: 18px;
   position: absolute;
   text-align: left;
-  width: 60%;
+  width: 50%;
   left: 10%;
   top: 40%;
   font-family: 'Droid Sans', serif;
+}
+
+#technology {
+  font-size: 18px;
+  position: absolute;
+  text-align: left;
+  width: 60%;
+  left: 10%;
+  top: 60%;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+
+
+#redBlock {
+  width: 5px;
+  height: 3px;
+  background-color: red;
 }
 
 #hello {

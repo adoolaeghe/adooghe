@@ -1,4 +1,3 @@
-
 $(function() {
 
   var WIN = $(window);
@@ -170,7 +169,7 @@ $(function() {
   function resizeHandler () { // Set the size of images and preload them
     _winW = window.innerWidth
     _winH = window.innerHeight;
-    smallScreen = _winW < 1860;
+    smallScreen = _winW < 2960;
     landscape = _winH < _winW;
     buildSpiral()
   }
