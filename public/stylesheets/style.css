@@ -18,8 +18,8 @@ div.main {
   height: auto;
   position: fixed;
   top:0px;
-  padding: 1px;
-  font-size: 15px;
+  padding: 0.5%;
+  font-size: 80%;
   color: white;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -34,6 +34,8 @@ span {
   background-size: contain;
 }
 
+
+
 .github {
   background-image: url('../images/github.png');
 }
@@ -45,15 +47,31 @@ span {
 
 .contact {
  background: url(../images/contact.svg) center no-repeat;
- background-size: 50px;
- color: white;
+ background-size: 50%;
  text-align: center;
  font-family: 'Fira Sans', sans-serif;
 }
 
-.makers {
-  background: url(../images/makers.png) center no-repeat;
-  background-size: 100px;
+.contact1 {
+  font-size: 80%;
+  position: absolute;
+  color: white;
+  top: 78%;
+  left: 27%;
+}
+
+b {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+
+.pdf {
+  background: url(../images/pdf.png) center no-repeat;
+  background-size: 55%;
+  background-color: black;
+  position: absolute;
+  top: 10%;
+  left: 70%;
 }
 
 #tweeter {
@@ -67,12 +85,21 @@ span {
   background-size: contain;
 }
 
+#tech {
+  font-size: 80%;
+  background-color: red;
+  color: white;
+  padding: 1px 4px 1px 4px;
+  margin: 5px;
+  margin-top: 15px;
+}
+
 #warning {
   font-family: 'Fira Sans', sans-serif;
   text-align: left;
-  font-size: 13px;
+  font-size: 80%;
   position: absolute;
-  width: 300px;
+  width: 40%;
   height: 20px;
   left: 55%;
   top: 10%;
@@ -80,7 +107,7 @@ span {
 
 #makersAcademy {
   font-family: 'Fira Sans', sans-serif;
-  font-size: 13px;
+  font-size: 80%;
   background-color: red;
   color: white;
   position: absolute;
@@ -100,13 +127,13 @@ span {
 
 #header {
   text-align: left;
-  font-size: 30px;
+  font-size: 300%;
   font-family: 'Droid Sans', serif;
 }
 
 #white-box {
-  height: 100px;
-  width: 100px;
+  height: 15%;
+  width: 15%;
   position: absolute;
   background-color: black;
   border-radius: 5px;
@@ -129,15 +156,15 @@ box-shadow: -1px -1px 47px -8px rgba(0,0,0,0.75);
 }
 
 #white-box:hover {
-  height: 98px;
-  width: 98px;
+  height: 14.5%;
+  width: 14.5%;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
 #text {
-  font-size: 18px;
+  font-size: 100%;
   position: absolute;
   text-align: left;
   width: 50%;
@@ -145,9 +172,29 @@ box-shadow: -1px -1px 47px -8px rgba(0,0,0,0.75);
   top: 40%;
   font-family: 'Droid Sans', serif;
 }
+#mainTitle {
+  font-size: 100%;
+  position: absolute;
+  text-align: left;
+  width: 50%;
+  left: 10%;
+  top: 60%;
+  font-family: 'Droid Sans', serif;
+}
+
+#mont-blanc {
+  position: absolute;
+  top:15%;
+  left: 15%;
+  width: 65%;
+  height: 50%;
+  background-color: black;
+  background-image: url('../images/mont-blanc.jpg');
+  background-size: cover;
+}
 
 #technology {
-  font-size: 18px;
+  font-size: 100%;
   position: absolute;
   text-align: left;
   width: 60%;
@@ -167,7 +214,7 @@ box-shadow: -1px -1px 47px -8px rgba(0,0,0,0.75);
 #hello {
   color:white;
   font-family: 'Droid Sans', serif;
-  font-size: 100px;
+  font-size: 600%;
   position: absolute;
   margin: 0px;
   bottom: 10px;
@@ -183,6 +230,8 @@ box-shadow: -1px -1px 47px -8px rgba(0,0,0,0.75);
   position: absolute;
   left: -100%;
   background-color: white;
+  background-image: url('../images/pattern.png');
+  background-size: 180px;
   box-sizing: border-box;
   transition: .2s border ease-out;
   border: 2px solid black;
